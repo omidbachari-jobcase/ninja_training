@@ -2,4 +2,4 @@ language: ruby
 rvm:
   - 2.2.1
 before_script:
-  - psql -c 'create database solar_test;' -U postgres
+  - psql -c 'create database ninja_training_test;' -U postgres
