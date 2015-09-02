@@ -18,7 +18,7 @@ class ApiComprehension
   def get_todos
     ApiWrapper.new.get("todos")
   end
-  
+
   def get_users
     ApiWrapper.new.get("users")
   end
