@@ -1,5 +1,4 @@
 class ApiWrapper
-
   def get(path)
     raw_response = http.get("#{api_url}/#{path}")
     response = {
